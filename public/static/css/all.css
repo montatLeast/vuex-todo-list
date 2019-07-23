@@ -1,0 +1,78 @@
+#app{
+
+    background: rgb(240, 240, 240);
+    min-width: 300px;
+    max-width: 600px;
+    margin:auto;
+
+}
+#intro{
+    font-style: italic;
+    font-size: 18px;
+}
+
+#input_item{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 380px;
+    height: 28px;
+}
+#button_add{
+    width: 70px;
+    height: 40px;
+    border-radius:8px;
+    border-color: white;
+    background: rgb(250, 150, 150);
+    color:white;
+    font-size: 20px;
+}
+.todolist{
+    margin-top: 20px;
+}
+.listitem{
+    margin-top: 20px;
+    width: 380px;
+    height: 30px;
+    font-size: 20px;
+}
+.check-box{
+    width: 20px;
+    height: 20px;
+}
+.buttons{
+    text-align: center;
+}
+.selector{
+    margin: 15px;
+    color: rgb(250, 150, 150);
+    border: none;
+    background: white;
+    font-size: 20px;
+}
+#edit{
+    margin-left: 20px; 
+    height: 20px;
+}
+.isSelected{
+    color: gray;
+}
+.drawLine{
+    color: gray;
+    text-decoration: line-through;
+}
+.delete{
+    float:right;
+    width: 30px;
+    height: 30px;
+    background-color:transparent;
+    border-style:none;
+    font-size: 30px;
+    color: gray;
+}
+span{
+    margin-left: 20px; 
+    height: 20px;
+}
+.even{
+    background-color: pink;
+}
